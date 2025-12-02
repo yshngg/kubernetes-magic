@@ -70,8 +70,9 @@ These differences matter because teams use `kubectl top` to reason about autosca
 ### kubectl (Terminal layer)
 
 **Metrics API**:
-Group Name: `metrics.k8s.io`
-API Version: `v1beta1`
+
+- Group Name: `metrics.k8s.io`
+- API Version: `v1beta1`
 
 ```console
 kubectl top node
