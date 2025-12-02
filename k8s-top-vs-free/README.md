@@ -1,5 +1,5 @@
 ---
-Title: "Kubernetes monitoring deep dive: why `kubectl top node` and `free`/`top` disagree"
+Title: "Kubernetes monitoring deep dive: why kubectl top node and free/top disagree"
 Date: 2025-12-01
 Author: Yusheng Guo([@yshngg](https://github.com/yshngg))
 ---
@@ -12,7 +12,7 @@ Author: Yusheng Guo([@yshngg](https://github.com/yshngg))
 
 </details>
 
-# Kubernetes monitoring deep dive: why `kubectl top node` and `free`/`top` disagree
+# Kubernetes monitoring deep dive: why kubectl top node and free/top disagree
 
 ### Hook — the painful surprise every SRE has seen
 
