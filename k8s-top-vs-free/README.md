@@ -1,7 +1,7 @@
 ---
 Title: "Kubernetes monitoring deep dive: why `kubectl top node` and `free`/`top` disagree"
 Date: 2025-12-01
-Author: Yusheng Guo(@yshngg)
+Author: Yusheng Guo([@yshngg](https://github.com/yshngg))
 ---
 
 <details open>
