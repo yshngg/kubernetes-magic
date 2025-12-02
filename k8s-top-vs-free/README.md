@@ -24,9 +24,9 @@ Keywords you’ll see repeatedly: **Kubernetes monitoring**, **kubectl top**, **
 
 ## Prerequisites
 
-kubernetes [v1.34.2](https://github.com/kubernetes/kubernetes/tree/v1.34.2)
-metrics-server [v0.8.0](https://github.com/kubernetes-sigs/metrics-server/tree/v0.8.0)
-cAdvisor [v0.53.0](https://github.com/google/cadvisor/tree/v0.53.0)
+- kubernetes [v1.34.2](https://github.com/kubernetes/kubernetes/tree/v1.34.2)
+- metrics-server [v0.8.0](https://github.com/kubernetes-sigs/metrics-server/tree/v0.8.0)
+- cAdvisor [v0.53.0](https://github.com/google/cadvisor/tree/v0.53.0)
 
 ---
 
