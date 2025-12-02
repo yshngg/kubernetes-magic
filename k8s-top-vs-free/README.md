@@ -220,7 +220,7 @@ The call resolves to cAdvisor, which is responsible for reading cgroup accountin
 [https://github.com/kubernetes/kubernetes/blob/v1.34.2/pkg/kubelet/cadvisor/cadvisor_linux.go#L139-L141](https://github.com/kubernetes/kubernetes/blob/v1.34.2/pkg/kubelet/cadvisor/cadvisor_linux.go#L139-L141)
 
 ```go
-// cadvisorClient 是 github.com/google/cadvisor/manager.Manager 的一个 wrapper
+// cadvisorClient is a wrapper around github.com/google/cadvisor/manager.Manager
 func (cc *cadvisorClient) ContainerInfoV2(name string, options cadvisorapiv2.RequestOptions) (map[string]cadvisorapiv2.ContainerInfo, error) {
 	return cc.GetContainerInfoV2(name, options)
 }
