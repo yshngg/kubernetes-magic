@@ -226,8 +226,6 @@ func (cc *cadvisorClient) ContainerInfoV2(name string, options cadvisorapiv2.Req
 }
 ```
 
-> Note: the Chinese comment here is preserved from upstream; it indicates `cadvisorClient` is a wrapper around `github.com/google/cadvisor/manager.Manager`. (Per strict preservation rules we did not edit the original code block.)
-
 ### cAdvisor
 
 Kubelet instantiates cAdvisor with platform-specific options (the snippet below is from kubelet startup logic):
